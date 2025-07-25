@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Assuming you're using React Router
 
-import navlogo from '../components/navlogo.png'
+import navlogo from '../components/navlogo.PNG'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
